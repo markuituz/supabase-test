@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const productTable = document.getElementById('productTable');
   const errorDiv = document.getElementById('error');
 
-  // Function to fetch products
+
   const fetchProducts = async () => {
     const { data, error } = await supabase
       .from('products')
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   };
 
-  // Function to add a product
+ 
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
     const productName = productNameInput.value;
@@ -59,6 +59,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   });
 
-  // Fetch products on page load
+ 
   fetchProducts();
 });

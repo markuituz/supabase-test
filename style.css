@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
 }
 
-/* Estilos del encabezado */
+
 header {
   background-color: #1eb1a0;
   color: white;
@@ -30,7 +30,7 @@ header {
   height: auto;
 }
 
-/* Contenedor principal */
+
 .container {
   width: 90%;
   max-width: 400px;
@@ -47,10 +47,10 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 80vh; /* Centra el formulario verticalmente */
+  min-height: 80vh; 
 }
 
-/* Estilos del formulario de login */
+
 form {
   display: flex;
   flex-direction: column;
@@ -60,7 +60,7 @@ form {
 
 .form-group {
   margin-bottom: 10px;
-  width: 100%; /* Asegura que los inputs llenen todo el ancho del contenedor */
+  width: 100%; 
 }
 
 input {
@@ -71,7 +71,7 @@ input {
   border-radius: 4px;
   outline: none;
   transition: border-color 0.3s;
-  width: calc(100% - 20px); /* Ajusta el ancho de los inputs */
+  width: calc(100% - 20px);
 }
 
 input:focus {
@@ -100,7 +100,7 @@ button:hover {
   margin-top: 8px;
 }
 
-/* Estilos de la tabla */
+
 table {
   width: 100%;
   max-width: 600px;
@@ -129,7 +129,7 @@ tr:hover {
   margin-top: 20px;
 }
 
-/* Estilos del pie de página */
+
 footer {
   background-color: #178578;
   color: white;
@@ -139,7 +139,7 @@ footer {
   margin-top: auto;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   header, footer {
     padding: 10px;
@@ -177,7 +177,7 @@ footer {
   }
 }
 
-/* Estilos del formulario principal */
+
 main {
   flex: 1;
   padding: 20px;
@@ -202,15 +202,13 @@ main {
   border-radius: 4px;
   outline: none;
   transition: border-color 0.3s;
-  width: 200px; /* Ajusta el ancho del campo de producto */
-}
-
+  width: 200px; 
 #productName:focus {
   border-color: #1eb1a0;
 }
 
 #productForm button {
-  padding: 8px 16px; /* Ajusta el tamaño del botón */
+  padding: 8px 16px;
   font-size: 14px;
   background-color: #1eb1a0;
   color: white;
@@ -222,4 +220,5 @@ main {
 
 #productForm button:hover {
   background-color: #178578;
+}
 }
