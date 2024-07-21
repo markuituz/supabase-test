@@ -16,9 +16,9 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
   if (user) {
     // Redirect to index.html if login is successful
-    window.location.href = 'index.html';
+    window.location.href = 'home.html';
   } else {
     // Display error message if login fails
-    errorMessage.textContent = 'Invalid username or password';
+    errorMessage.textContent = 'Usuario o clave incorrecta';
   }
 });
