@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       productTable.innerHTML = `
         <tr>
           <th>ID</th>
-          <th>Name</th>
-          <th>Created At</th>
+          <th>Nombre</th>
+          <th>Fecha de creación</th>
         </tr>
       `;
       data.forEach(product => {
